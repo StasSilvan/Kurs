@@ -1,0 +1,9 @@
+body{
+  width 100%;
+}
+/*fieldset tablica nie na całą stronę*/
+#glosowanie, fieldset {
+  background-color: aqua;
+  width: 50%;
+
+}
