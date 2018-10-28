@@ -53,6 +53,7 @@
   </table>
   <hr>
   <!--łączenie kolumn-->
+  <!--colspan="2" ( dla łączenia kolumn)-->
   <table>
   <tr>
     <th> </th>
@@ -61,24 +62,59 @@
     <th> Środa</th>
   </tr>
   <tr>
-    <th>15:00</th>
+    <th scope="row">15:00</th>
     <td> Judo</td>
     <td> Kido</td>
-    <td> Dane 2</td>
+    <td> Piłka</td>
   </tr>
   <tr>
-    <th> 16:00</th>
-    <td> Boks</td>
-    <td> Piłka</td>
-    <td> Balet</td>
+    <th scope="row"> 16:00</th>
+    <td colspan="3">Boks</td>
   </tr>
     <tr>
-    <th> 17:00</th>
+    <th scope="row"> 17:00</th>
     <td> KSW</td>
-    <td> Zapasy</td>
-    <td> Dane 4</td>
+    <td colspan="2">Zapasy</td>
   </tr>
-  </table>
+    <!--łączenie wierszy-->
+</table>
+  <hr>
+<table>
+<tr>
+  <td>1 Komurka</td>
+  <td>2 Komurka</td>
+  <td>3 Komurka</td>
+  </tr>
+<tr><!--początek łączenia-->
+  <td rowspan="2">4 Komurka</td>
+  <td>5 Komurka</td>
+  <td>6 Komurka</td>
+  </tr>
+<tr>
+  <!--koniec łączenia-->
+  <td>8 Komurka</td>
+  <td>9 Komurka</td>
+  </tr>
+</table>
+  <hr>
+<table>
+  <tr>
+    <td colspan="5">Header</td>
+  </tr>
+  <tr>
+    <td rowspan="3"> 7</td>
+    <td> text</td>
+    <th> <img src="img/bialorus_mini.png" width="50" height="50" title="Białoruś"></th>
+    <td> <img src="img/polska_mini.jpg" width="50" height="50" title="Polska"></td>
+    </tr>
+  <tr>
+    <td> 13</td>
+    <td colspan="2"> text</td>
+  </tr>
+  <tr>
+    <td colspan="4"> text</td>
+  </tr>
+</table>
 
 </body>
 </html>
