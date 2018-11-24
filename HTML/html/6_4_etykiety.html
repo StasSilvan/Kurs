@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Etykiety </title>
+</head>
+<body>
+  <fieldset>
+    <legend> Płec uzytkownika</legend>
+  <form>
+<label>
+  Wiek<input type="number" name="wiek" min="1" max="125">
+  płeć:
+  <input type="radio" id="kobieta" name="plec" value="k">
+  <label for="kobieta"> kobieta</label>
+  <input type="radio" id="mezczyzna" name="plec" value="m">
+  <label for="meczyzna"> męzczyzna</label>
+  <input type="date" id="dataurodzenia" name="data"> <br>
+  <label for="dataurodzenia" name="data"></label>
+  <label for="email"> Poczta elektroniczna</label>
+  <input type="email" id="email" name="email"> <br>
+  <label for="url"> adres strony www</label>
+  <input type="url" id="url" name="url"> <br>
+  <input type="search" id="wyszukaj" name="wyszukaj" placeholder="wyszukaj..">
+  <label for="wyszukaj"></label>
+  <input type="submit" name="przycisk">
+
+  </label>
+    </form>
+     </fieldset>
+  <form method="">
+  <label for="name"> Imię</label>
+  <input type="name" id="name" name="Imie">
+  <label for="Nazwisko"> Nazwisko</label>
+  <input type="name" id="name" name="Nazwisko"> <br>
+  <label for="email"> E-mail</label>
+  <input type="email" id="email" name="email"> <br>
+    Płeć:
+  <input type="radio" id="kobieta" name="plec" value="k">
+  <label for="kobieta"> Kobieta</label>
+  <input type="radio" id="mezczyzna" name="plec" value="m" checked>
+  <label for="meczyzna" > Męzczyzna</label><br>
+  <textarea cols="40" rows="6">Treść wiadomości</textarea><br>
+    Wiek:
+  <select name="Wiek">
+    <option value="Mniej">Mniej niż 18</option>
+    <option value="18">18</option>
+    <option value="Wiecej">Więcej niz 18</option>
+  </select><br>
+    <input type="reset" name="przycisk" value="Wyczyść formularz">
+    <input type="submit" name="przycisk">
+  </form>
+
+</body>
+</html>
