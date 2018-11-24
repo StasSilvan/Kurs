@@ -5,7 +5,7 @@
   <title>  </title>
 </head>
 <body>
-  <form>
+  <form method="get">
     <input type="text" name="imie" autofocus autocomplete="off"><br>
     <!--autocomplete="off" usuwa wskazowki wpisywanych polach-->
     <!--autofocus - automatycznie ustawia focus-->
@@ -22,8 +22,46 @@
     kolor:
   <input type="color">
   <input type="range" name="zakres" min="1" max="255">
-  <input type="submit">
+    Lista:
+    <label>
+    <input type="text" list="tydzien">
+    <datalist id="tydzien">
+    <option value="Poniedziałek">
+    <option value="Wtorek">
+    <option value="Sroda">
+    <option value="Poniedziałek">
+    <option value="Poniedziałek">
+    <option value="Poniedziałek">
+    <option value="Niedziela">
+      </option>
+      </datalist>
+    </label>
+  Wyrazenia regularne: <br>
+    Pesel:
+    <input type="text" name="pesel" pattern="[0-9]{11}"><br>
+    Kod Pocztowy:
+    <input type="text" name="kod" pattern="^\d{2}-\d{3}" placeholder="62-000">
+    Aders IP:
+    <input type="text" name="IP" pattern="\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}" placeholder="192.168.0.1">
+    Telefon komurkowy:
 
+    <input type="text" name="phone" pattern="^\d{3}[ -]?\d{3}[ -]?\d{3}$" placeholder="777-777-777" >
+    Hasło:
+    <input type="text" name="password" pattern="(?=.*[A-Z])(?=.*[A-z])(?=.*\d).{8,}" placeholder="Stas@3" required>
+
+
+
+    <!--<input type="submit" formtarget="_blank">-->
+    <!-- formnovalidate - nie potrzebuje sprawdzenie validnosci-->
+    <input type="submit" formnovalidate formmethod="post">
+  </form>
+  <form oninput="wynik.value=parseInt(liczba1.value)+parseInt(liczba2.value)">
+    <h4>
+    Nowy formularz
+    </h4>
+  <input type="number" id="liczba1">+
+  <input type="number" id="liczba2">=
+  <output name="wynik" for="liczba1 liczba2"> </output>
   </form>
 </body>
 </html>
