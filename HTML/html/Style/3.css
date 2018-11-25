@@ -1,15 +1,32 @@
 body{
    font-family: fantasy;
-   background-color: rgba(80, 250, 152, 0.32);
-   color: rgba(145, 55, 68, 0.78);
+   background-color: black;
+   color: rgb(236, 28, 36,);
    padding: 30px;
 }
  h1 {
+    color: darkcyan;
    padding: 0px;
    margin: 0px;
 }
+h2 {
+   background-color: rgba(0,100, 200, 0.5);
+   color: #ee66ff;
+}
+a {
+   color: rgb(255, 255, 0);
+}
+h1{
+   background-color: #123456;
+}
+p {
+   background-color: #ffb820;
+}
 .strona{
    border: 1px solid black;
-   background-color: rgba(137, 186, 16, 0.37);
+   background-color: rgb(137, 186, 16, 0.37);
    padding: 10px;
+}
+.trzypokoje {
+   background-color: hsl(180,50%,50%);
 }

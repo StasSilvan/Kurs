@@ -1,0 +1,106 @@
+* {
+   background-color: rgb(178, 185, 181);
+   font-size: 75%;
+}
+@font-face {
+   font-family: HVD;
+   src: url('./../Fonts/HVD.ttf');
+}
+#HVD{
+   font-family: HVD;
+   color: White;
+   padding: 22px;
+   font-size: 400%;
+}
+@font-face {
+   font-family: HolidayHome;
+   src: url('./../Fonts/HolidayHome.ttf');
+}
+#HH{
+   font-family: HolidayHome;
+   color: White;
+   font-size: 30px;
+}
+#georgia {
+   font-family: Georgia;
+   font-size: 13px;
+}
+#Times, #tnr {
+   font-family: Times , "Times New Roman";
+}
+.bezszeryfowa{
+   font-family: Arial, Verdana;
+}
+#Helvetica {
+font-family: Helvetica;
+font-size: 200%;
+}
+#normalna{
+   font-weight: normal;
+}
+#pogrubiona{
+   font-weight: bold;
+}
+#normalna_{
+   font-style: normal;
+}
+h4{
+color: aqua ;
+text-transform: lowercase;
+}
+#kursywa{
+   font-style: italic;
+}
+#pochylona{
+   font-style: oblique;
+}
+h1{
+   font-size: 150%;
+   text-transform: uppercase;
+   /* Upercase - wszystkie litery duzę */
+   /* lowercase -małe  */
+}
+.firstUpper{
+   text-transform: capitalize;
+   color: aqua;
+}
+#normalny{
+   text-decoration: none;
+   line-height: 1,5em;
+}
+#podkreslony{
+   text-decoration: underline;
+}
+#lnt{
+   text-decoration: overline;
+}
+#podkreslenie{
+   text-decoration: line-through;
+}
+#normalny, #podkreslony, #lnt, #podkreslonie{
+line-height: 3em;
+}
+/* odległosc mendzy literami i słowami */
+#odleglosci{
+   text-transform: uppercase;
+   font-weight: bold;
+letter-spacing: 0.2em;
+word-spacing: 3em;
+}
+#lewy{
+   text-align: left;
+}
+#prawy{
+   text-align: right;
+}
+#srodek{
+   text-align: center;
+}
+#wyjustuj{
+   text-align: justify;
+}
+#gora{
+   background-color: yellow;
+   height:100px;
+   line-height: 190px;
+}
