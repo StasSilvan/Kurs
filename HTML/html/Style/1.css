@@ -1,0 +1,51 @@
+body {
+   background-color: red;
+color: blue;
+}
+p{
+   color: rgb(231, 0, 255);
+   }
+   #Wzgorza
+   {color: red }
+
+h1, h4 {
+color:  YELLOW;
+font-family: maroon;
+}
+a:link{
+   color: magenta;
+}t
+a:visited{
+   color: aqua;
+}
+a:hover {
+   color: black;
+   cursor: crosshair;
+   text-decoration: underline;
+}
+a:active{
+   color: white;
+   background-color: hotpink;
+}
+a{
+   text-decoration: none;
+}
+a:hover, a:active{
+   color: rgb(22, 214, 99);
+}
+ul > a:link{
+   color: red;
+}
+/*  SELEKTOR ELEMENTU POTOMNEGO*/
+h1 a:link{
+   color: rgb(0, 245, 149);
+}
+/* selektor elementu sąsidującego bzposrednio */
+h1 ~ p{
+   color: white;
+}
+/*
+p - selector
+color - własciwość
+red - wartość
+  */

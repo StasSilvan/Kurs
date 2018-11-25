@@ -1,0 +1,15 @@
+body{
+   font-family: fantasy;
+   background-color: rgba(80, 250, 152, 0.32);
+   color: rgba(145, 55, 68, 0.78);
+   padding: 30px;
+}
+ h1 {
+   padding: 0px;
+   margin: 0px;
+}
+.strona{
+   border: 1px solid black;
+   background-color: rgba(137, 186, 16, 0.37);
+   padding: 10px;
+}

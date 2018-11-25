@@ -1,0 +1,29 @@
+body {
+background-color: rgb(64, 187, 207);
+}
+*{
+   font-family: arial , verdana, sans-serif;\
+   color: red;
+}
+h1 {
+   font-family: "coourier new", monospace;
+   color: YELLOW;
+}
+i{
+   color: Green;
+}
+b{
+   color: aqua;
+}
+p b {
+   color: fuchsia !important ;
+}
+p b {
+   color: brown ;
+}
+p#opis{
+   font-size: 100%;
+}
+p {
+   font-size: 75% ;
+}
