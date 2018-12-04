@@ -99,8 +99,13 @@ word-spacing: 3em;
 #wyjustuj{
    text-align: justify;
 }
-#gora{
-   background-color: yellow;
-   height:100px;
-   line-height: 190px;
+div{
+min-height: 100px;
+background: yellow;
+}
+#Gora{
+  background-color: yellow;
+  bottom: -94px;
+  position: relative;
+  padding-left: 0px;
 }
