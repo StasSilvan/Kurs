@@ -118,3 +118,6 @@ input{
       background-color: rgb(166, 33, 171);
       color: aliceblue;
    }
+P.abc, p.abcde{
+   color: red;
+}
