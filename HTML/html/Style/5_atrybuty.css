@@ -1,0 +1,120 @@
+body{
+   background-color: aliceblue;
+   font-size:  30px;
+/*}
+table,tr,td {
+   border: solid 1px black;
+   border-collapse: collapse;
+   padding: 10px;
+}
+#jan {
+ vertical-align: text-top;
+}
+#anna {
+   vertical-align: bottom;
+}
+#stas {
+   vertical-align: baseline;
+}*/
+
+}
+#flagab{
+   width: 10px;
+   height: 10px;
+}
+.top {
+   vertical-align: text-top;
+}
+.bottom{
+vertical-align: text-bottom;
+}
+.baseline {
+   vertical-align: baseline;
+}
+#vciecie{
+   text-indent: 40px;
+   background-color: plum;
+}
+#vciecie2{
+   text-indent: 50%;
+   background-color: rgb(68, 194, 80);
+}
+.c1{
+   color: #666666;
+   background-color: #eeeeee;
+   text-shadow: 1px 1px 0px #000000;
+}
+.c2{
+   color: #666666;
+   background-color: #dddddd;
+   text-shadow: 1px 1px 14px #000000;
+}
+.c3{
+   color: #666666;
+   background-color: #cccccc;
+   text-shadow: 3px 8px 10px #000000;
+}
+.c4{
+   color: #black;
+   background-color: #bbbbbb;
+   text-shadow: -2px -4px  aqua;
+}
+.c5{
+   color: #ffffff;
+   background-color: #aaaaaa;
+   text-shadow: -3px -3px #666666;
+}
+/*
+1px - wielkosc przesunienia cienia w poziomie
+1px - wielkosc przesunienia cienia w pionie
+0px - stopien rozmazania cienia
+#000000 - color cienia
+*/
+p.Line:first-letter{
+   color:  brown;
+}
+p.line:first-line {
+   font-weight:  bold;
+   color: black;
+}
+a:link{
+   color: green;
+   text-decoration: none;
+}
+a:visited {
+   color: red;
+}
+a:hover {
+   color: rgb(160, 191, 35);
+   text-decoration: underline;
+   text-shadow: 3px -3px 5px grey;
+}
+a:active {
+   color: rgb(148,0,0);}
+
+input{
+      background-color:  aqua;
+      padding: 10px 30px 11px 12px;
+      /*
+      10px - top
+      30px- prawa
+      11- dół
+      12px - lewa
+      padding - w srodku elementu
+      margin - na zęwnącz elementu
+      */
+   }
+   input.submit{
+      background-color:  black;
+      color: aqua;
+      padding: 10px 30px 10px 30px;
+   }
+   input.submit:active {
+      color:  red;
+   }
+   input.submit:hover{
+   }
+   input.text:focus{
+      background-color: rgb(166, 33, 171);
+      color: aliceblue;
+   }
